@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<title>Projects</title>
+<link href="projects.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+	<nav id="navigation">  
+	<a href="contact.html">Contact.</a>
+		<a href="#">Projects.</a>
+	<a href="about.html">About.</a>
+	<a href="index.html">Home.</a>
+	</nav>
+
+	</header>
+<a href="index.html"><img src="new_logo.png" id="logo" alt="logo"/></a>
+
+<div class="navbar">
+  <div class="dropdownnav">
+    <button class="dropbtn">Flows.</button>
+    <div class="dropdown-contentnav">
+		<a href="projects.html">Flow 1</a>
+		<a href="#">Flow 2</a>
+		<a href="flow3.html">Flow 3</a>
+		<a href="flow4.html">Flow 4</a>
+    </div>
+  </div> 
+</div>	
+<section>
+  <h1>Flow Projekt - Byg din portfolio</h1>
+</section>
+<div>
+	<a href="oldfront.html" target="_blank"><img src="portfolio_html.png" id="flow1img" alt="flow1img"></a>
+	<a href="eksamensproject.pdf" download><img src="flow2redesign.png" id="flow1redesign" alt="flow1redesign"></a>
+</div>
+<div class="projects">
+	<a href="https://cphbusiness.mrooms.net/mod/assign/view.php?id=44424" target="_blank" id="projectdesc">Projektbeskrivelse.</a>
+	<a href="eksamensproject" download target="_blank" id="pdf" >Eksamensproject.</a>
+	<button onclick="myFunction()" class="dropbutton">Refleksioner.</button>
+  <div id="myDropdown" class="dropdown-content">
+	  <p class="flow1"><strong>Jeg har arbejdet i Abobe Dreamweaver og lært grundprincipper inden for HTML5 og CSS</strong><br><br>
+Selvom denne opgave er en jeg har afleveret senere, følte jeg stadig at mit kendskab til HTML og CSS var meget begrænset. Men jeg fandt hurtigt ud af, at det handler om at springe ud i det og prøve sig frem. Det gav mig en meget bedre forståelse af, hvordan HTML fungerer da jeg selv sad med det og så sammenhængen mellem en bestemt kode og dens virkning. Jeg holdt stilen fra min prototype med figurer og et udvalg af de farver jeg havde anvendt. Jeg havde dog ændret lidt i figurerne, samt tegnede dem over i Illustrator, da jeg på dette tidspunkt havde stiftet bekendtskab med programmet og lært, at det var et meget mere nuanceret program der var nemmere at tegne i. Jeg fik samtidigt lavet et logo, men ikke helt tilfreds med udseendet på det, når det blev skaleret ned.<br><br>
+Jeg havde ikke de store tanker om at tilføje mange smarte effekter med jQuery eller Javascript. Så jeg holdt koden meget simpel og inden for mine evner, så jeg følte jeg fik styr på det før jeg begyndte at eksperimentere med mere udfordrende kode. Derudover blev jeg nødt til at erkende, at en navigationsmenu nok var uundgåeligt, da min prototype var afhængig af at man skulle navigere sig tilbage til forsiden, for at klikke sig ind på de andre sider. <br><br>
+<strong>Refleksioner omkring det:</strong><br>
+Jeg kan godt se nu, at siden både er ufærdig, men også ret kedelig. Den farvede inddeling fungerer bare ikke med mindre man lægger nogle flotte Javascript effekter over kasserne. Der er for meget ubrugt plads og for langt mellem de forskellige elementer. Det virker lidt som om, at både logo og navigation er skubbet helt ud i hver deres hjørne, der efterlader et meget tomt sidehoved. I mit redesign (eksamensprojektet) har jeg forsøgt at løse nogle af de udfordringer jeg synes min side havde. Jeg har ikke indrammet siden i lukkede bokse og kasser samt så vidt forsøgt ikke at gøre siden kedelig at se på. <br><br>
+<strong>Jeg skal stadig blive bedre til opsætning af hjemmesider og bliver nødt til at arbejde noget mere med grids for at lære at opsætte en overskuelig side.</strong>
+</p>
+  </div>
+	
+	</div>
+
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbutton')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+	</script>
+<footer>
+	<p class="copyp">&copy; Elisabeth B. Søndergaard</p>
+	<a href="https://github.com/ElisabethSondergaard/Eksamen_portfolio" target="_blank">
+  		<img src="github.png" id="git" alt="github"></a>	
+	<a href="https://www.facebook.com/profile.php?id=100001452498584" target="_blank">
+  	<img src="facebook.png" id="face" alt="facebook"></a>	
+</footer>	
+</body>
+	
+</html>

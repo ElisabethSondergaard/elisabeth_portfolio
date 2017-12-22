@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image: url("background2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	font-family: 'Karla', sans-serif;
+	
+}
+.copyp {
+	font-family: 'Karla', sans-serif;
+	font-size: 10px;
+	text-align: left;
+	padding-top: 800px;
+	margin-left: 30px;
+}
+
+#navigation a {
+	margin-top: 45px;
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	color: black;
+	margin-right: 15px;
+	text-decoration: none;
+	padding: 5px 18px;
+	text-align: right;
+	float: right;
+}
+
+#navigation a:hover {
+	text-decoration: underline;	
+}
+
+#logo {
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	width: 10%
+}
+
+#git {
+	width: 2.7%;
+	margin-left: 30px;
+}
+#face {
+	width: 3%;
+	margin-left: 30px;
+}
+h2 {
+	float: right;
+	margin-top: 200px;
+}
+.contacttext {
+	float: right;
+	margin-right: 280px;
+	margin-top: 30px;
+	
+}
+.background{
+	background: url("background2.png") repeat;
+	background-attachment: inherit;
+	background-position: right;
+	float: left;
+	margin-top: 200px;
+	width: 300px;
+	margin-left: 0px;
+	padding: 20px;
+}
+.container {
+	background-color: #ffffff;
+	opacity: 0.8;
+	padding: 20px;
+	width: 300px;
+	margin-left: 20px;
+}
+#fname {
+	width: 300px;
+	height: 35px;
+	border-radius: 3px;
+	margin-bottom: 35px;
+	border: none;
+}
+#lname {
+	width: 300px;
+	height: 35px;
+	border-radius: 3px;
+	margin-bottom: 35px;
+	border: none;
+}
+#subject {
+	width: 300px;
+	border-radius: 3px;
+	border: none;
+}
+
+
+

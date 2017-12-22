@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="da"> 
+<head>
+<meta charset="UTF-8">
+<title>flow 4</title>
+<link href="projects.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+	<nav id="navigation">  
+	<a href="contact.html">Contact.</a>
+		<a href="#">Projects.</a>
+	<a href="about.html">About.</a>
+	<a href="index.html">Home.</a>
+	</nav>
+
+	</header>
+<a href="index.html"><img src="new_logo.png" id="logo" alt="logo"/></a>
+
+<div class="navbar">
+  <div class="dropdownnav">
+    <button class="dropbtn">Flows.</button>
+    <div class="dropdown-contentnav">
+		<a href="projects.html">Flow 1</a>
+		<a href="flow2.html">Flow 2</a>
+		<a href="flow3.html">Flow 3</a>
+		<a href="#">Flow 4</a>
+    </div>
+  </div> 
+</div>	
+<section>
+  <h1>Flow Projekt - sweetbot.design</h1>
+</section>
+<div>
+	<a href="http://mchoffn.bplaced.net/sweetbot/project_sweetbot.html" target="_blank"><img src="sweetbot.png" id="flow4img" alt="flow4img"></a>
+	<a href="https://xd.adobe.com/view/2b8eb38f-8219-4047-b6f7-583fccb00aed/" target="_blank"><img src="flow4redesign_sweetbot.png" id="flow4redesign" alt="flow4redesign"></a> <br>
+	<a href="https://xd.adobe.com/view/c65ef990-30dc-42c0-8d43-2e6977342f64/" target="_blank"><img src="hotbot.png" id="hotbotimg" alt="flow4img"></a> 
+	<a href="https://xd.adobe.com/view/7386507b-fdb5-4436-8aa0-ed616830d706/" target="_blank"><img src="flow4redesign_hotbot.png" id="hotbotimg2" alt="flow4redesign"></a>
+</div>
+<div class="projects">
+	<a href="https://cphbusiness.mrooms.net/mod/assign/view.php?id=49827" target="_blank" id="projectdesc">Projektbeskrivelse.</a>
+	<a href="brugertest.pdf" download id="pdf">Brugertest.</a>
+	<button onclick="myFunction()" class="dropbutton">Refleksioner.</button>
+  <div id="myDropdown" class="dropdown-content">
+    <p class="flow4"><strong>Dette flow er oprindeligt udarbejdet i samarbejde med Andreas Hoffmann og Amara Rosalind. Vi har udarbejdet en hjemmeside i Dreamweaver, designet ikoner i Illustrator og lavet en prototype i XD.  </strong><br><br>
+Noget af det jeg fandt udfordrende var at designe inden for en bestemt styleguide. Det havde jeg ikke noget forhåndskendskab til, men efterhånden som vi begyndte på opgaven synes jeg det var fedt at blive udfordret idet man hele tiden skal overveje om det nu passer ind i styleguiden. Når jeg sidder med en opgave selv, kan jeg nemlig godt have svært ved at beherske mig, hvor det ofte stikker lidt af i forskellige retninger. <br><br>
+Vores gruppe havde meget fokus på at få tegnet nogle ikoner, der afspejlede det opdigtede firmas vision om hjemmesiden. Både Sweetbot, deres danske version af deres hjemmeside og Hotbot, en e-commerce hjemmeside. Men vi fik kritik for at vores designs ikke virkede til at hænge sammen. At det var et lidt for stort skel i stilart. Derudover havde vi haft lidt problemer med at få kodet siden, så vores elementer befandt sig der, vi ønskede de skulle være. <br><br>
+Jeg lærte meget om projektplanlægning og vigtigheden 
+Jeg har i mit remake af Sweetbot og Hotbot udarbejdet prototyper i XD. Dette er ikke fuldt udarbejdet og bare et forslag til hvilke forbedringer der skulle lægges fokus på. Jeg har ændret lidt i nogle af de elementer vi fik kritik for, og forsøgt at få designet til at se sammenhængende ud. <br><br>
+		<strong>Jeg har stadig brug for at blive bedre til at planlægge et projekt samt have en klar vision om hvilken retning projektet skal have.</strong>
+</p> 
+  </div>
+	</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbutton')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+	</script>
+<footer>
+	<p class="copyp">&copy; Elisabeth B. Søndergaard</p>
+	<a href="https://github.com/ElisabethSondergaard/Eksamen_portfolio" target="_blank">
+  		<img src="github.png" id="git" alt="github"></a>	
+	<a href="https://www.facebook.com/profile.php?id=100001452498584" target="_blank">
+  	<img src="facebook.png" id="face" alt="facebook"></a>	
+</footer>	
+</body>
+	
+</html>

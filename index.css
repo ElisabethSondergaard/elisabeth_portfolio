@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("stripes.png");
+	background-repeat: no-repeat;	
+}
+
+.copyp {
+	font-family: 'Karla', sans-serif;
+	font-size: 10px;
+	text-align: left;
+	padding-top: 600px;
+	margin-left: 30px;
+}
+
+#navigation a {
+	margin-top: 45px;
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	color: black;
+	margin-right: 15px;
+	text-decoration: none;
+	padding: 5px 18px;
+	text-align: right;
+	float: right;
+}
+
+#navigation a:hover {
+	text-decoration: underline;	
+}
+
+#logo {
+	margin-left: 15px;
+	margin-top: 15px;
+	width: 10%;
+	float: left;
+}
+
+#git {
+	width: 3%;
+	margin-left: 30px;
+}
+#face {
+	width: 3%;
+	margin-left: 30px;
+}
+

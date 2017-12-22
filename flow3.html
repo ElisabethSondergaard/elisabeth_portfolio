@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<title>flow 3</title>
+<link href="projects.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+	<nav id="navigation">  
+	<a href="contact.html">Contact.</a>
+		<a href="#">Projects.</a>
+	<a href="about.html">About.</a>
+	<a href="index.html">Home.</a>
+	</nav>
+
+	</header>
+<a href="index.html"><img src="new_logo.png" id="logo" alt="logo"/></a>
+
+<div class="navbar">
+  <div class="dropdownnav">
+    <button class="dropbtn">Flows.</button>
+    <div class="dropdown-contentnav">
+		<a href="projects.html">Flow 1</a>
+		<a href="flow2.html">Flow 2</a>
+		<a href="#">Flow 3</a>
+		<a href="flow4.html">Flow 4</a>
+    </div>
+  </div> 
+</div>	
+<section>
+  <h1>Flow Projekt - Byg en app</h1>
+</section>
+<div>
+	<a href="https://xd.adobe.com/view/444928a9-89e8-42c8-9b92-96f5ecae25e7/" target="_blank"><img src="appimg.png" id="flow3img" alt="flow3img"></a> 
+	<a href="https://xd.adobe.com/view/77b353f2-786d-418d-8f91-dd870bbb68e5" target="_blank"><img src="app_redesign.png" id="flow3redesign" alt="flow3redesign"></a>
+</div>
+<div class="projects">
+	<a href="https://cphbusiness.mrooms.net/mod/assign/view.php?id=46512" target="_blank" id="projectdesc">Projektbeskrivelse.</a>
+	<a href="vejrapp.pdf" download id="pdf">Rapport.</a>
+	<button onclick="myFunction()" class="dropbutton">Refleksioner.</button>
+  <div id="myDropdown" class="dropdown-content">
+	  <p class="flow3"><strong>I dette flow har jeg arbejdet med Adobe Illustrator og udviklet en prototype på en vejr app i Adobe XD</strong><br><br>
+Jeg har ikke haft den store erfaring inden for at tegne i programmer. Eller på papir for den sags skyld. Men jeg synes det virkede nemmere, da man altid kan rette sine streger og småjustere alt i et program. Jeg lærte meget om at designe logoer og hvordan man fik dem til at se enkle, men stadig interessante ud. Jeg har i min opdaterede version lavet et delvis redesign. 
+Jeg fik lidt kritik for, at min app virkede mere som en widget grundet dens simple opsætning og få lag. Jeg havde udarbejdet den efter en ide om at brugeren skulle have adgang til en hurtig, simpel oversigt uden nogle yderligere funktioner. Men jeg kunne godt se at den ikke helt havde følelsen af at være en app. Jeg udarbejdede min prototype efter at beholde den simple, ligetil oversigt, men ved at tilføje den nogle flere funktioner og elementer. <br><br>
+<strong>Refleksioner omkring det:</strong><br>
+Jeg var lidt utilfreds med mine ikoner, da de virkede lidt for håndtegnede og ikke så fine som jeg oprindeligt havde tænkt. Men jeg havde tegnet dem så godt jeg nu kunne og indgået lidt kompromiser undervejs. Jeg valgte nemlig at gøre dem mere håndtegnet med vilje, da det passede godt ind i den app jeg designede. Jeg har i mit redesign ikke ændret på ikonerne udover den meget kraftige blå farve jeg havde valgt. Jeg har valgt en mere nedtonet farve, for at skabe et mere roligt billede. Jeg føler jeg har formået at skabe mere dybde i appen, og fået designet noget der minder mere om min oprindelige tanke om et professionelt udseende. <br><br>
+<strong>Jeg føler stadig jeg skal blive bedre til at arbejde med farver, da jeg somme tider har svært ved at vælge en farvepalette med dynamik.</strong> 
+</p> 
+  </div>
+	</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbutton')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+	</script>
+<footer>
+	<p class="copyp">&copy; Elisabeth B. Søndergaard</p>
+	<a href="https://github.com/ElisabethSondergaard/Eksamen_portfolio" target="_blank">
+  		<img src="github.png" id="git" alt="github"></a>	
+	<a href="https://www.facebook.com/profile.php?id=100001452498584" target="_blank">
+  	<img src="facebook.png" id="face" alt="facebook"></a>	
+</footer>	
+</body>
+	
+</html>

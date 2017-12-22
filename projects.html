@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<title>Projects</title>
+<link href="projects.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+	<nav id="navigation">  
+	<a href="contact.html">Contact.</a>
+		<a href="#">Projects.</a>
+	<a href="about.html">About.</a>
+	<a href="index.html">Home.</a>
+	</nav>
+
+	</header>
+<a href="index.html"><img src="new_logo.png" id="logo" alt="logo"/></a>
+
+<div class="navbar">
+  <div class="dropdownnav">
+    <button class="dropbtn">Flows. 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-contentnav">
+		<a href="#">Flow 1</a>
+		<a href="flow2.html">Flow 2</a>
+		<a href="flow3.html">Flow 3</a>
+		<a href="flow4.html">Flow 4</a>
+    </div>
+  </div> 
+</div>	
+<section>
+  <h1>Flow Projekt - Drøm din portfolio</h1>
+</section>
+<div>
+	<a href="https://xd.adobe.com/view/3b1f6639-0166-4d67-a9b2-39fec5d5a64c/" target="_blank"><img src="flow1redesign.png" id="flow1redesign" alt="flow1redesign"></a>
+	<a href="https://xd.adobe.com/view/cc2272f6-657d-40f1-922c-2074ec106a21/" target="_blank"><img src="flow1project.png" id="flow1img" alt="flow1img"></a>
+</div>
+<div class="projects">
+	<a href="https://cphbusiness.mrooms.net/mod/assign/view.php?id=41333" target="_blank" id="projectdesc">Projektbeskrivelse.</a>
+	<a href="Portfolio.pdf" download id="pdf">Rapport.</a>
+	<button onclick="myFunction()" class="dropbutton">Refleksioner.</button>
+  <div id="myDropdown" class="dropdown-content">
+	<p class="flow1"><strong>Til dette flow har jeg arbejdet i prototype-programmet Adobe XD og lært dens funktioner at kende.</strong><br><br>Det her var et af de første projekter vi lavede på året. Jeg kan huske at jeg overordnet set var meget tilfreds med det visuelle udtryk, men fik kritik for, at kontrasterne var for svage – så man ikke kunne skelne de forskellige elementer fra hinanden da jeg fremlagde det på projektoren. Min ide med portfolioen var, kun at have elementer lavet i Adobe XD så jeg virkelig fik lært programmet at kende, men samtidig blev udfordret idet at det også skulle være spændende at se på. Jeg lærte meget om, hvordan man tegner i et tegneprogram. Det havde jeg ikke arbejdet så meget med før. Til min nye version har jeg blot redesignet forsiden. <br> <br>
+	<strong>Refleksioner omkring det:</strong> <br>
+Som Mark Boulton skrev det i hans bog Designing for the Web, bruges de hvide områder ofte til at skabe et balanceret og harmonisk layout. Jeg kom frem til, at det var en af de mangler min portfolio prototype havde. Ved at dele siden op i fire rektangler og tildele dem forskellige farver gav siden et lidt klodset look, hvilket ikke passede med de abstrakte figurer jeg havde lavet. Når jeg ser tilbage på mit arbejde, synes jeg det ser rimelig rodet ud. Det er mange (pastel) farver i forskellige nuancer og ingen ens opstilling af figurer og tekst. Det er lidt tilfældigt placeret på siden. <br><br>
+Jeg valgte til en start at gøre baggrunden helt hvid, hvilket allerede så meget mere indbydende og åbent ud. Den hvide baggrund gør også kontrasterne en del stærkere, da jeg i min tidligere version havde valgt en lys grå som basefarve. Hjemmesiden havde dog stadig brug for en slags opdeling, og jeg ville gerne prøve at bevare den firdelte opdeling, da jeg synes det var en dejlig overskuelig måde at inddele en side på. Ingen navigations menuer, bare de fire ”kasser” og deres bagvedliggende side. Jeg tegnede en vandret streg, som jeg trak i for også at inddele siden lodret. Det gav en mere synlig opdeling, der samtidig tilføjer noget grafisk til helhedsindtrykket.<br><br>
+Jeg har rykket lidt rundt på de forskellige figurer jeg havde tegnet samt tekst, for at få nogle klare linjer ind og en flottere orden. Det giver et mere rent udtryk, samtidig med jeg har indskrænket mit brug af forskellige farver, hvor jeg har holdt mig til de grønne/blå nuancer.<br><br>
+<strong>Jeg vil stadig gerne blive bedre til at tegne og kreere i forskellige programmer og har brug for at lære mere om logisk opsætning i webdesign, da </strong>
+</p>
+  </div>
+	
+	</div>
+
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbutton')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+	</script>
+<footer>
+	<p class="copyp">&copy; Elisabeth B. Søndergaard</p>
+	<a href="https://github.com/ElisabethSondergaard/Eksamen_portfolio" target="_blank">
+  		<img src="github.png" id="git" alt="github"></a>	
+	<a href="https://www.facebook.com/profile.php?id=100001452498584" target="_blank">
+  	<img src="facebook.png" id="face" alt="facebook"></a>	
+</footer>	
+</body>
+	
+</html>

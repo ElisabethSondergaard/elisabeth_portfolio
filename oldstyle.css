@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #F8F8F8;
+  	font-family: 'Raleway', sans-serif;
+}
+#navigation {
+	color: black; 
+	font-size: 18px;
+    height: 50px;
+    position: right;
+}
+#navigation a {
+    top: 0px;
+	color: black;
+    float: right;
+    margin-right: 8px;
+	text-decoration: none;
+	padding: 5px 7px;
+}
+#navigation a:hover {
+    background: #cddceb;
+	text-decoration: underline;
+}
+#logo {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#aboutimg {
+	float: right;
+	margin-right: 100px;	
+}
+#projectsimg {
+	float: right;
+	margin-right: 100px;
+}
+#projectsimg2{
+	float: left;
+	padding-left: 10px;
+}
+#contactimg {
+	float: right;
+	margin-right: 100px;
+}
+h3 {
+	text-align: center;
+	font-size: 25px;
+}
+h2 {
+	display: none;
+}
+p {
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+section {
+	display: block;
+    padding-top: 90px;
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+}
+section a {
+	text-decoration: none;
+	color: #636363;
+	font-size: 60px;
+	margin-left: 150px;
+	font-family: 'Amatic SC', cursive;	
+}
+
+section:nth-child(3) {
+    background-color: #EAEFD6;
+}
+section:nth-child(4) {
+    background-color: #EFEFEF;
+}
+section:nth-child(5) {
+    background-color: #D5CFCF;
+}
+	
+.container {
+	float: center;
+	min-width: 250px;
+	max-width: 250px;
+}
+#fname {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-right: 200px;
+	padding-right: 200px;
+}
+
+#lname {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-right: 200px;
+	padding-right: 200px;
+	
+}
+#subject {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-right: 200px;
+	padding-right: 200px;
+}
